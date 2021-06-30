@@ -45,7 +45,7 @@ int binary_bit_game(int number){
             
             }
         }
-        // 1 lerin arasında bulunan sıfırlar sayıldı 
+        // Those among the 1s were counted.
     }
 
     if(biggestZeroArea < zeroCounter ){

@@ -23,15 +23,17 @@ So we can see that 4 rounds will be played and 5 is the winner because it wins 2
 
 -Algorithm Description- 
 
-After the losing number has passed, a shifting process takes place, so we followed the following ways while making the assignments.
-If the losing number is 1. If the element is the first element, we have memorized and 2 . We assign the element, then replace the 3rd element
-By assigning the 4th element, we performed the shifting operation until the end, that is, from the last to one element of our pointer.
-Finally, we assigned the first element, that is, the losing element, which we kept in the memory, instead of the last element.
-If our pointer is 0 . If the element wins, this time 0 . We assigned the element to the memory 1 . we assigned the element and in the same way
-We performed this shifting operation until the last element of the pointer.
+1-) After the losing number has passed, a shifting process takes place, so we followed the following ways while making the assignments.
+2-) If the losing number is 1. If the element is the first element, we have memorized and 2. 
+3-) We assign the element, then replace the 3rd element by assigning the 4th element. 
+4-) We performed the shifting operation until the end, that is, from the last to one element of our pointer.
+5-) Finally, we assigned the first element that is, the losing element, which we kept in the memory, instead of the last element.
+6-) If our pointer is 0 . If the element wins, this time 0 . We assigned the element to the memory 1. 
+7-) We assigned the element and in the same way
+8-) We performed this shifting operation until the last element of the pointer.
 So how do we know that our number has won twice?
-We keep this with a win_counter variable, but it's a while that continues as long as a number continues to win by the entered value k.
-We created the loop. We kept our round count with the roundCounter variable.
+9-) We keep this with a win_counter variable, but it's a while that continues as long as a number continues to win by the entered value k.
+10-) We created the loop. We kept our round count with the roundCounter variable.
 Finally, the winning number for us in the final version of the pointer is 0 . Since it is an element, we printed the zeroth element of the pointer to the screen.
 
 */
